@@ -1,4 +1,15 @@
 main.mm
 makefile
-source/inc/sandbox.h
+source/inc/sandbox.hpp
 source/src/sandbox.mm
+source/inc/dictionary_GRE_TOEFL.hpp
+source/src/dictionary_GRE_TOEFL.mm
+
+source/inc/advanced_vocabulary.hpp
+source/inc/basic_vocabulary.hpp
+source/inc/common_vocabulary.hpp
+
+source/src/advanced_vocabulary.mm
+source/src/basic_vocabulary.mm
+source/src/common_vocabulary.mm
+source/src/dictionary_GRE_TOEFL.mm
