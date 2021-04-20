@@ -1,3 +1,13 @@
+/*
+    polymorphism.m
+    The module represents demo functions on polymorphism.
+    This was taken from Steve Kochan's book.
+
+    Sandbox4
+
+    Created by alimovlex.
+    Copyright (c) 2020 alimovlex. All rights reserved.
+*/
 #import "polymorphism.h"
 @implementation Shape
 - (void)printArea 

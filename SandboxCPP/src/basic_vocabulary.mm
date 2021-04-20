@@ -1,5 +1,5 @@
 /*
-    basic_vocabulary.cpp
+    basic_vocabulary.mm
     The module represents basic words part of the shuffle game from the TOEFL Magoosh Application.
 
     Sandbox4

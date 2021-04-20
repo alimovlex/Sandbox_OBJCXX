@@ -1,4 +1,13 @@
-// Provides function implementations for the Complex class
+/*
+    complex_numbers.m
+    The module represents demo functions on complex numbers.
+    This was taken from Steve Kochan's book.
+
+    Sandbox4
+
+    Created by alimovlex.
+    Copyright (c) 2020 alimovlex. All rights reserved.
+*/
 #import "complex_numbers.h"
 
 @implementation Complex

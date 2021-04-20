@@ -1,6 +1,8 @@
-// Complex.m -- defines a Complex class
-// Implements Chapter 7 exercises both 5 and 6.
+//
+// Created by alimovlex
+//
 
+//
 #import <Foundation/Foundation.h>
 
 @interface Complex: NSObject

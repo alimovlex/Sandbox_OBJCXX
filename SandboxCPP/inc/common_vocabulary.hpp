@@ -1,3 +1,8 @@
+//
+// Created by alimovlex
+//
+
+//
 void common_first();
 void common_second();
 void common_third();

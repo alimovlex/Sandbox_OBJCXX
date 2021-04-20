@@ -1,3 +1,12 @@
+/*
+    dictionary_GRE_TOEFL.mm
+    The module represents the vocabulary game from the TOEFL Magoosh Application.
+
+    Sandbox4
+
+    Created by alimovlex.
+    Copyright (c) 2020 alimovlex. All rights reserved.
+*/
 #include <cstdlib>
 #include <cstdio>
 #include <iostream>

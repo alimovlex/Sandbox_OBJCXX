@@ -1,3 +1,12 @@
+/*
+    sandbox.mm
+    The module represents the C++ sandbox.
+
+    Sandbox4
+
+    Created by alimovlex.
+    Copyright (c) 2020 alimovlex. All rights reserved.
+*/
 #include <cstdlib>
 #include <cstdio>
 #include <iostream>

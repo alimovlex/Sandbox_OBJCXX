@@ -1,3 +1,13 @@
+/*
+    basics.m
+    The module represents demo functions on basic data types.
+    This was taken from Steve Kochan's book.
+
+    Sandbox4
+
+    Created by alimovlex.
+    Copyright (c) 2020 alimovlex. All rights reserved.
+*/
 #import "basics.h"
 @implementation BinClass
 - (void) arrayTest

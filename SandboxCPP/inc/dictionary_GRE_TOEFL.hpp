@@ -1,12 +1,17 @@
+//
+// Created by alimovlex
+//
+
+//
 #import <Foundation/Foundation.h>
 #include <vector>
 using namespace std;
-//TOEFL words
 void speechSynthesizerTest();
 void sentence_shuffle(vector<string> &personal_qualities, vector<string> &thoughts, vector<string> &objects, vector<string> &actions);
 class Dictionary
 {
 public:
+    //TOEFL words
 vector<string> TOEFL_vocabulary{"Function", "Substitute", "Nevertheless", "Issue", "Hypothesis",
                       "Hence", "Require", "Lecture", "Theory", "Emphasize",
                       "Establish", "Capable", "Involve", "Fundamental", "Analyze",
@@ -127,7 +132,7 @@ vector<string> TOEFL_vocabulary{"Function", "Substitute", "Nevertheless", "Issue
                       "Hurl", "Retract", "Facet", "Vessel", "Trickle",
                       "Depress", "Raze", "Audacious", "Barter", "Exacerbate",
                       "Grueling", "Peril", "Hazy", "Lurk", "Uphold"};
-
+//GRE words
 vector<string> GRE_vocabulary {"Aberration", "Restive", "Iconoclast", "Ambiguous", "Laconic",
                       "Amalgam", "Profligate", "Qualify", "Chastise", "Impertinent",
                       "Extant", "Venerate", "Harangue", "Venality", "Egregious",

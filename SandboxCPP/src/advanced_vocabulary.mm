@@ -2,7 +2,7 @@
     advanced_vocabulary.mm
     The module represents advanced words part of the shuffle game from the TOEFL Magoosh Application.
 
-    Sandbox2
+    Sandbox4
 
     Created by alimovlex.
     Copyright (c) 2020 alimovlex. All rights reserved.
