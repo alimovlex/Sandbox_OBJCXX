@@ -2,6 +2,11 @@
 #import <time.h>
 #import "sandbox.mm"
 #import "dictionary_GRE_TOEFL.mm"
+#import "sandbox.m"
+#import "basics.m"
+#import "complex_numbers.m"
+#import "polymorphism.m"
+#import "structures.m"
 #import <pthread.h>
 using namespace std;
 
@@ -10,9 +15,8 @@ int main (int argc, const char * argv[])
 {
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
     NSLog(@"Program name %s\n", argv[0]);
-    //sandbox();
-    speechSynthesizerTest();
-    //DictionaryMethods Thesaurus;
+    sandboxCPP();
+    sandboxCLang();
     //speechSynthesizerTest();
     [pool drain];
     return 0;

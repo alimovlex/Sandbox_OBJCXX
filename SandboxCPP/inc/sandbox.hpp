@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
 #include <vector>
 using namespace std;
-void sandbox();
+void sandboxCPP();
 class init
 {
 public:

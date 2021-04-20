@@ -1,4 +1,6 @@
-source/inc
-source/src
+SandboxCLang/inc
+SandboxCLang/src
+SandboxCPP/inc
+SandboxCPP/src
 /usr/include/GNUstep/
 .

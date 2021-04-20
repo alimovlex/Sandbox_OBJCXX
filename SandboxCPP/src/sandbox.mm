@@ -36,9 +36,9 @@ init::init(vector<int> &list1) :sum(1)
     //cout<<sum<<endl;
 }
 
-void sandbox()
+void sandboxCPP()
 {
-    NSLog(@"Launching from Sandbox function\n");
+    NSLog(@"Accumulating <vector>\n");
     vector<int> list1{1,2,3,4,5};
     init object(list1);
 }
