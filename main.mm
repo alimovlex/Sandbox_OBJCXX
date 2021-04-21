@@ -26,7 +26,7 @@ int main (int argc, const char * argv[])
     NSLog(@"Program name %s\n", argv[0]);
     sandboxCPP();
     sandboxCLang();
-    //speechSynthesizerTest();
+    speechSynthesizerTest();
     [pool drain];
     return 0;
 }

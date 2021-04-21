@@ -44,11 +44,14 @@ void sentence_shuffle(vector<string> &personal_qualities, vector<string> &though
     random_shuffle(actions.begin(), actions.end());
     for (itr = thoughts.begin(); itr != thoughts.end(); itr++)
     {
+        if (cin.get() == '\n')
         for(jtr = personal_qualities.begin();jtr!=personal_qualities.end(); jtr++)
+            if (cin.get() == '\n')
             for(ktr = objects.begin();ktr!=objects.end(); ktr++)
+                if (cin.get() == '\n')
                 for(ltr = actions.begin();ltr!=actions.end(); ltr++)
+                    if (cin.get() == '\n')
                     cout<<"Josh adores "+*ltr+ " as he's "+*jtr+ " person and have " + *itr + " thoughts and ideas about "+*ktr+ "."<<endl;
-
     }
 }
 void navigate(string chapter, int number)
