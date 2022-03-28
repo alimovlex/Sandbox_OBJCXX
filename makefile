@@ -1,14 +1,13 @@
-CC = g++
-GNUSTEP_LIBS = $(shell gnustep-config --base-libs) 
-GNUSTEP_FLAGS = $(shell gnustep-config --objc-flags)
-INCLUDE = -I SandboxCPP/inc -I SandboxCPP/src -I SandboxCLang/inc -I SandboxCLang/src
-OBJECTS = main.o 
-%.o: %.mm
-	$(CC) $(GNUSTEP_FLAGS) $(INCLUDE) -c $^
-%.o: %.m
-	$(CC) $(GNUSTEP_FLAGS) $(INCLUDE) -c $^
-all: main.o
-	$(CC) -o $@ $^ $(GNUSTEP_LIBS)
+CC = clang++
+GNUSTEP_HEADERS = $(gnustep-config --variable=GNUSTEP_SYSTEM_HEADERS)
+GNUSTEP_LIBS = $(gnustep-config --variable=GNUSTEP_SYSTEM_LIBRARIES) 
+INCLUDE_FLAGS = -I `gnustep-config --variable=GNUSTEP_SYSTEM_HEADERS` -I./SandboxCLang/inc -I./SandboxCLang/src  -I./SandboxCPP/src -I./SandboxCPP/inc
+GNUSTEP_FLAGS = -lgnustep-base -fconstant-string-class=NSConstantString
+COMPILER_FLAG = -D_NATIVE_OBJC_EXCEPTIONS 
+LINKER_FLAGS = -lobjc -ldispatch -lpthread 
+
+main: 
+	$(CC) -o $@ $@.mm $^ $(GNUSTEP_HEADERS) $(INCLUDE_FLAGS) -L '$(GNUSTEP_LIBS)' $(GNUSTEP_FLAGS) $(COMPILER_FLAG) $(LINKER_FLAGS)
 	
 clean:
-	rm main.o main.d all
+	rm main
